@@ -4,31 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hii I am Naved</h1>
-    </header>
-    <div>
-        <ul>
-            <li>Home</li>
-            <li>Contact Me</li>
-            <li>Projects</li>
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
         </ul>
-    </div>
-    <div>
-        <h3>My Hobbies</h3>
-        <ol>
-            <li>Playing Cricket</li>
-            <li>Listening Music</li>
-            <li>Riding</li>
-        </ol>
-        <h3>Foods I love</h3>
-        <ol>
-            <li>Biryani</li>
-            <li>Chicken Tikka</li>
-            <li>Fish</li>
-        </ol>
-    </div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="images/propic.svg" />
+        <h1 class="hero-heading">Mohammad Naved<span class="heading-inverted"> web developer</span></h1>
+    </header>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with, </p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Java</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Mohammad-Naved">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/tanaypratap">
+                    twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/tanaypratap">
+                    linkedin
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
 </body>
 </html>
