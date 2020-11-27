@@ -153,3 +153,17 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+.blog-image
+{
+    height: 30rem;
+    width: 30rem;
+    background-size: auto;
+}
+@media (max-width: 1028px)
+{
+    .blog-image
+    {
+        height: 20rem;
+        width: 15rem;
+    }
+}
