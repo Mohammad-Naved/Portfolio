@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #88ee4d;
-    --off-white: #F3F4F6;
-    --blue: #80a4ee;
+    --off-white: #acf79d;
+    --blue: #537cce;
 }
 
 body {
@@ -15,13 +15,12 @@ hr {
     margin: 2rem 0rem;
 }
 
-/** spaces **/
 
 .margin-md {
     margin: 2rem;
 }
 
-/** container **/
+
 .container {
     padding: 0rem 1rem;
 }
@@ -106,14 +105,14 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--blue);
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
-/** sections **/
+
 
 .section {
     padding: 2rem;
@@ -134,14 +133,18 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
+    color: rgb(0, 0, 0);
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
 }
 
 .footer .link {
     color: white
 }
-
+.footer .link:hover
+{
+    color: black;
+}
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
